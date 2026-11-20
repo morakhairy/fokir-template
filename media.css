@@ -1,0 +1,84 @@
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 992px) {
+  .item {
+    width: 45%;
+  }
+  .nav_bar ul {
+    width: 70%;
+  }
+  .Blog {
+    width: 44%;
+  }
+  .Blogs {
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .profile {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .all_photo {
+    width: 50%;
+  }
+  .text_content {
+    width: 80%;
+  }
+  .nav_bar ul {
+    width: 100%;
+  }
+  .nav-bar2 ul {
+    width: 60%;
+  }
+  .Form {
+    width: 80%;
+  }
+  .header2 {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .item {
+    width: 100%;
+  }
+  .Blog {
+    width: 100%;
+  }
+  .Form .row {
+    flex-direction: column;
+  }
+  .header2 {
+    flex-wrap: wrap;
+  }
+  .content {
+    width: 50%;
+  }
+  .nav-bar2 ul {
+    width: 90%;
+  }
+  .profile .all_photo {
+    width: 70%;
+  }
+  .profile .text_content {
+    width: 90%;
+  }
+  .nav_bar ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .nav_bar {
+    position: absolute;
+  }
+  .nav_bar .logo {
+    width: 100%;
+    text-align: center;
+  }
+  .photos {
+    padding: 0 20px;
+  }
+}
