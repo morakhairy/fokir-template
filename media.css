@@ -27,8 +27,14 @@
   .text_content {
     width: 80%;
   }
+  .nav_bar {
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+  }
   .nav_bar ul {
     width: 100%;
+    justify-content: space-evenly;
   }
   .nav-bar2 ul {
     width: 60%;
